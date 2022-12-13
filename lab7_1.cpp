@@ -35,19 +35,6 @@ string func3(string x){
 
 int main(){
 	string text;
-    cout << "Input text: ";
-	cin  >> text;
-	string reverse = func1(text);
-    cout << "Reversed text: "<< reverse<<"\n";
-	string small = func3(text);
-	string smallrev = func3(reverse); 
-	string check;
-	if(small == smallrev){
-		check = "Yes";
-	}
-	else{
-		check="No";
-	}
-    cout << "Palindrome: "<<check;
+
     return 0;
 }
